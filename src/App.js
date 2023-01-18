@@ -3,6 +3,7 @@ import "./App.css";
 import DropDown from "./DropDown";
 import Table from "./Table";
 import { useEffect, useState } from "react";
+import { INTERNET, MOBILE, ROUTER } from "./constants";
 
 
 function App() {
@@ -65,11 +66,11 @@ function App() {
   const checkPrice = (product) => {
     switch (product) {
       case "Internet":
-        return 120;
+        return INTERNET;
       case "Mobile":
-        return 300;
+        return MOBILE;
       case "Router":
-        return 450;
+        return ROUTER;
     }
   };
 
