@@ -11,4 +11,4 @@ next change directory to
 
 next run the application 
 
-`npm run`
+`npm start`
